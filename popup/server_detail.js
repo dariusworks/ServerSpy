@@ -6,7 +6,9 @@ function html(id,html){$(id).innerHTML=escapeHTML(html)};
 html("header",headers.header);
 
 html("ip",headers.ip);
-$("ip").href="http://ip.cn/index.php?ip="+headers.ip;
+$("ip").href="https://www.infobyip.com/ip-"+headers.ip+".html";
+$("ipcn").href="http://ip.cn/index.php?ip="+headers.ip;
+$("ipinfoio").href="https://ipinfo.io/index.php?ip="+headers.ip;
 
 var width=headers.url.length>100?headers.url.length:100;
 
