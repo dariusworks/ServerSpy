@@ -2,7 +2,7 @@
     "description": "all info about the server",
     "manifest_version": 2,
     "name": "Server Spy",
-    "version": "2.0",
+    "version": "2.2",
     "homepage_url": "https://github.com/dw5/ServerSpy-Extension",
     "icons": {
         "16": "icons/icon-16.png",
